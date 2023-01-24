@@ -9,7 +9,7 @@ import React, {useRef} from 'react';
 // Opacity 0 (meaning hidden) and 1 being completely visible.
 // Anything in between 0 and 1 will add transparency.
 
-const App = () => {
+const OpacityAnimation = () => {
   const animatedOpacityValue = useRef(new Animated.Value(1)).current;
 
   const animatedStyles = {
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default OpacityAnimation;
