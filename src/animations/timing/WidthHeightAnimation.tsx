@@ -11,7 +11,7 @@ import React, {useRef} from 'react';
 
 const BOX_SIZE = 150;
 
-const App = () => {
+const WidthHeightAnimation = () => {
   const animatedValue = useRef(new Animated.Value(BOX_SIZE)).current;
 
   const animatedStyles = {
@@ -63,4 +63,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default WidthHeightAnimation;
