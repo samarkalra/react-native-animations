@@ -5,6 +5,7 @@ import {
   OpacityAnimation,
   ScaleAnimation,
   TranslateAnimation,
+  WidthHeightAnimation,
 } from '../animations';
 
 const drawerScreens = [
@@ -22,6 +23,11 @@ const drawerScreens = [
     id: 2,
     name: 'Scale Animation',
     screen: ScaleAnimation,
+  },
+  {
+    id: 3,
+    name: 'Width/Height` Animation',
+    screen: WidthHeightAnimation,
   },
 ];
 
