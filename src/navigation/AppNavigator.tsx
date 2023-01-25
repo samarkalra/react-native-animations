@@ -1,7 +1,11 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {OpacityAnimation, TranslateAnimation} from '../animations';
+import {
+  OpacityAnimation,
+  ScaleAnimation,
+  TranslateAnimation,
+} from '../animations';
 
 const drawerScreens = [
   {
@@ -13,6 +17,11 @@ const drawerScreens = [
     id: 1,
     name: 'Translate Animation',
     screen: TranslateAnimation,
+  },
+  {
+    id: 2,
+    name: 'Scale Animation',
+    screen: ScaleAnimation,
   },
 ];
 
