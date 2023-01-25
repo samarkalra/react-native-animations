@@ -6,6 +6,7 @@ import {
   Text,
 } from 'react-native';
 import React, {useRef} from 'react';
+import {BOX_SIZE} from '../../shared/constants';
 
 const ScaleAnimation = () => {
   const animatesScaleValue = useRef(new Animated.Value(1)).current;
@@ -46,8 +47,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 150,
-    height: 150,
+    width: BOX_SIZE,
+    height: BOX_SIZE,
     backgroundColor: 'tomato',
   },
 });

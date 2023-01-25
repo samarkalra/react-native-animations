@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {
   AbsolutePositionAnimation,
+  ColorInterpolation,
   OpacityAnimation,
   ScaleAnimation,
   TranslateAnimation,
@@ -34,6 +35,11 @@ const drawerScreens = [
     id: 4,
     name: 'Absolute Position Animation',
     screen: AbsolutePositionAnimation,
+  },
+  {
+    id: 5,
+    name: 'Color Interpolation Animation',
+    screen: ColorInterpolation,
   },
 ];
 
