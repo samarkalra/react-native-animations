@@ -1,13 +1,18 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import OpacityAnimation from '../animations/timing/OpacityAnimation';
+import {OpacityAnimation, TranslateAnimation} from '../animations';
 
 const drawerScreens = [
   {
     id: 0,
     name: 'Opacity Animation',
     screen: OpacityAnimation,
+  },
+  {
+    id: 1,
+    name: 'Translate Animation',
+    screen: TranslateAnimation,
   },
 ];
 
