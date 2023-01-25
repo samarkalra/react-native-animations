@@ -1,26 +1,29 @@
 import {
   View,
+  TouchableWithoutFeedback,
   Animated,
   StyleSheet,
-  TouchableWithoutFeedback,
-  Text,
 } from 'react-native';
 import React, {useRef} from 'react';
 
-const App = () => {
-  const animatesScaleValue = useRef(new Animated.Value(1)).current;
+// Opacity 0 (meaning hidden) and 1 being completely visible.
+// Anything in between 0 and 1 will add transparency.
+
+const OpacityAnimation = () => {
+  const animatedOpacityValue = useRef(new Animated.Value(1)).current;
 
   const animatedStyles = {
-    transform: [{scale: animatesScaleValue}],
+    opacity: animatedOpacityValue,
   };
 
   const startAnimation = () => {
-    Animated.timing(animatesScaleValue, {
-      toValue: 2,
-      duration: 500,
+    Animated.timing(animatedOpacityValue, {
+      toValue: 0,
+      duration: 350,
       useNativeDriver: true,
     }).start(() => {
-      Animated.timing(animatesScaleValue, {
+      // Again making opacity go from 0 to 1 once previous animation has been finished
+      Animated.timing(animatedOpacityValue, {
         toValue: 1,
         duration: 500,
         useNativeDriver: true,
@@ -31,9 +34,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       <TouchableWithoutFeedback onPress={startAnimation}>
-        <Animated.View style={[styles.box, animatedStyles]}>
-          <Text>Hello</Text>
-        </Animated.View>
+        <Animated.View style={[styles.box, animatedStyles]} />
       </TouchableWithoutFeedback>
     </View>
   );
@@ -52,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default OpacityAnimation;
