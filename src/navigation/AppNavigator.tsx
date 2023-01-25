@@ -2,6 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {
+  AbsolutePositionAnimation,
   OpacityAnimation,
   ScaleAnimation,
   TranslateAnimation,
@@ -26,8 +27,13 @@ const drawerScreens = [
   },
   {
     id: 3,
-    name: 'Width/Height` Animation',
+    name: 'Width/Height Animation',
     screen: WidthHeightAnimation,
+  },
+  {
+    id: 4,
+    name: 'Absolute Position Animation',
+    screen: AbsolutePositionAnimation,
   },
 ];
 
