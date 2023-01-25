@@ -15,7 +15,7 @@ import React, {useRef} from 'react';
 // to move negatively. If we want to move down or right we need to
 // move positively.
 
-const App = () => {
+const TranslateAnimation = () => {
   const animatedTranslateValue = useRef(new Animated.Value(0)).current;
 
   const animatedStyles = {
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default TranslateAnimation;
