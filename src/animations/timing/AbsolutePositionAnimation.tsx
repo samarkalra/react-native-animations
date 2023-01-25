@@ -9,7 +9,7 @@ import React, {useRef} from 'react';
 
 const BOX_SIZE = 150;
 
-const App = () => {
+const AbsolutePositionAnimation = () => {
   const animatedAbsolutePositionTopValue = useRef(
     new Animated.Value(0),
   ).current;
@@ -62,4 +62,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default AbsolutePositionAnimation;
