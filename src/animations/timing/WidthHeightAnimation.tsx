@@ -6,10 +6,9 @@ import {
   Text,
 } from 'react-native';
 import React, {useRef} from 'react';
+import {BOX_SIZE} from '../../shared/constants';
 
 // Animating width and height values will effect layout
-
-const BOX_SIZE = 150;
 
 const WidthHeightAnimation = () => {
   const animatedValue = useRef(new Animated.Value(BOX_SIZE)).current;
@@ -21,7 +20,7 @@ const WidthHeightAnimation = () => {
 
   const startAnimation = () => {
     Animated.timing(animatedValue, {
-      toValue: 300,
+      toValue: BOX_SIZE * 2,
       duration: 500,
       //Style property 'width' and 'height' is not supported by native animated module,
       useNativeDriver: false,

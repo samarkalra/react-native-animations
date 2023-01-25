@@ -6,8 +6,7 @@ import {
   Dimensions,
 } from 'react-native';
 import React, {useRef} from 'react';
-
-const BOX_SIZE = 150;
+import {BOX_SIZE} from '../../shared/constants';
 
 const AbsolutePositionAnimation = () => {
   const animatedAbsolutePositionTopValue = useRef(

@@ -5,6 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import React, {useRef} from 'react';
+import {BOX_SIZE} from '../../shared/constants';
 
 // Translations operate like a grid, where 0,0 is the top left of
 // the element. The Y piece will operate on the Y axis, go up and
@@ -52,8 +53,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 150,
-    height: 150,
+    width: BOX_SIZE,
+    height: BOX_SIZE,
     backgroundColor: 'tomato',
   },
 });

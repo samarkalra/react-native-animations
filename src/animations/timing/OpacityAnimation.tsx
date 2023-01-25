@@ -5,6 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import React, {useRef} from 'react';
+import {BOX_SIZE} from '../../shared/constants';
 
 // Opacity 0 (meaning hidden) and 1 being completely visible.
 // Anything in between 0 and 1 will add transparency.
@@ -47,8 +48,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 150,
-    height: 150,
+    width: BOX_SIZE,
+    height: BOX_SIZE,
     backgroundColor: 'tomato',
   },
 });
