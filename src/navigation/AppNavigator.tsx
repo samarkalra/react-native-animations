@@ -5,6 +5,7 @@ import {
   AbsolutePositionAnimation,
   ColorInterpolation,
   OpacityAnimation,
+  RotationAnimation,
   ScaleAnimation,
   TranslateAnimation,
   WidthHeightAnimation,
@@ -40,6 +41,11 @@ const drawerScreens = [
     id: 5,
     name: 'Color Interpolation Animation',
     screen: ColorInterpolation,
+  },
+  {
+    id: 6,
+    name: 'Rotation Animation',
+    screen: RotationAnimation,
   },
 ];
 
