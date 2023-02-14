@@ -9,6 +9,7 @@ import {
   ScaleAnimation,
   TranslateAnimation,
   WidthHeightAnimation,
+  WidthHeightPercentage,
 } from '../animations';
 
 const drawerScreens = [
@@ -46,6 +47,11 @@ const drawerScreens = [
     id: 6,
     name: 'Rotation Animation',
     screen: RotationAnimation,
+  },
+  {
+    id: 6,
+    name: 'Width/Height Percentage Animation',
+    screen: WidthHeightPercentage,
   },
 ];
 

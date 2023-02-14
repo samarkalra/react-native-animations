@@ -5,3 +5,4 @@ export {default as WidthHeightAnimation} from './timing/WidthHeightAnimation';
 export {default as AbsolutePositionAnimation} from './timing/AbsolutePositionAnimation';
 export {default as ColorInterpolation} from './timing/ColorInterpolation';
 export {default as RotationAnimation} from './timing/RotationAnimation';
+export {default as WidthHeightPercentage} from './timing/WidthHeightPercentage';
