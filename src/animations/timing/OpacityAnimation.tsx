@@ -7,9 +7,6 @@ import {
 import React, {useRef} from 'react';
 import {BOX_SIZE} from '../../shared/constants';
 
-// Opacity 0 (meaning hidden) and 1 being completely visible.
-// Anything in between 0 and 1 will add transparency.
-
 const OpacityAnimation = () => {
   const animatedOpacityValue = useRef(new Animated.Value(1)).current;
 
