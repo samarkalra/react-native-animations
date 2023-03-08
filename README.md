@@ -29,48 +29,78 @@
 12. Using animated for colors will work for rbg/rgba/hcl/ and now even hex colors.
 13. Rotation also requires you to use interpolate because the rotation transform
     properties must be given a value in degrees, or in radians.
-14.
 
 ---
 
 # Animation Images
 
-1. Opacity Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_65b65dff7dd84f2791b46312df7beb1a~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
-</div>
-
-2. Translate Animation
-<div> 
-    <img  src="https://static.wixstatic.com/media/e71421_ec41c983469a463cbf89d41d3880eb35~mv2.gif"  alt= “Translate animation gif”  width="200"  height="400" />
-</div>
-
-3. Scale Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_462348178bc94e6c97999973c958c92a~mv2.gif"  alt= “Scale animation gif”  width="200"  height="400" />
-</div>
-
-4. Width/Height Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_168bcde5c91d469cae16b64ff1f1e4c4~mv2.gif"  alt= “Width/Height animation gif”  width="200"  height="400" />
-</div>
-
-5. Absolute Position Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_08eb1805425f406a90d58dd28436f3d4~mv2.gif"  alt= “Absolute position animation gif”  width="200"  height="400" />
-</div>
-
-6. Color Interpolation Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_08eb1805425f406a90d58dd28436f3d4~mv2.gif"  alt= “Color interpolation gif”  width="200"  height="400" />
-</div>
-
-7. Rotation Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_a385dea497ed43168c03a3f17c61948e~mv2.gif"  alt= “Rotation animation gif”  width="200"  height="400" />
-</div>
-
-8. Width/Height percentage Animation
-<div>
-    <img  src="https://static.wixstatic.com/media/e71421_01bf2bb00f52487588f45a242369eb94~mv2.gif"  alt= “Width/Height percentage interpolation gif”  width="200"  height="400" />
-</div>
+<table>
+   <tr>
+      <th>Animation</th>
+      <th>Image</th>
+   </tr>
+   <tr>
+      <td>Opacity</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_65b65dff7dd84f2791b46312df7beb1a~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Translate</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_ec41c983469a463cbf89d41d3880eb35~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Scale</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_462348178bc94e6c97999973c958c92a~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Width/Height</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_168bcde5c91d469cae16b64ff1f1e4c4~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Absolute position</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_08eb1805425f406a90d58dd28436f3d4~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Color interpolation</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_08eb1805425f406a90d58dd28436f3d4~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Rotation</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_a385dea497ed43168c03a3f17c61948e~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td>Width/Height percentage</td>
+      <td>
+         <div>
+            <img src="https://static.wixstatic.com/media/e71421_01bf2bb00f52487588f45a242369eb94~mv2.gif"  alt= “Opacity animation gif”  width="200"  height="400" />
+         </div>
+      </td>
+   </tr>
+</table>
