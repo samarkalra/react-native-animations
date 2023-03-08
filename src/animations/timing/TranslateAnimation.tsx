@@ -7,15 +7,6 @@ import {
 import React, {useRef} from 'react';
 import {BOX_SIZE} from '../../shared/constants';
 
-// Translations operate like a grid, where 0,0 is the top left of
-// the element. The Y piece will operate on the Y axis, go up and
-// down/move top to bottom. The X will operate on X axis, go left
-// to right.
-
-// In order to move up and or left (depending on the axis) we need
-// to move negatively. If we want to move down or right we need to
-// move positively.
-
 const TranslateAnimation = () => {
   const animatedTranslateValue = useRef(new Animated.Value(0)).current;
 
