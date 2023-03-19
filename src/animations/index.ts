@@ -6,3 +6,4 @@ export {default as AbsolutePositionAnimation} from './timing/AbsolutePositionAni
 export {default as ColorInterpolation} from './timing/ColorInterpolation';
 export {default as RotationAnimation} from './timing/RotationAnimation';
 export {default as WidthHeightPercentage} from './timing/WidthHeightPercentage';
+export {default as ReactNativeIconAnimation} from './ReactNativeIconAnimation';

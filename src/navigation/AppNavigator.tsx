@@ -5,6 +5,7 @@ import {
   AbsolutePositionAnimation,
   ColorInterpolation,
   OpacityAnimation,
+  ReactNativeIconAnimation,
   RotationAnimation,
   ScaleAnimation,
   TranslateAnimation,
@@ -49,9 +50,14 @@ const drawerScreens = [
     screen: RotationAnimation,
   },
   {
-    id: 6,
+    id: 7,
     name: 'Width/Height Percentage Animation',
     screen: WidthHeightPercentage,
+  },
+  {
+    id: 7,
+    name: 'React Native Icon Animation',
+    screen: ReactNativeIconAnimation,
   },
 ];
 
